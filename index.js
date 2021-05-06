@@ -1,8 +1,9 @@
 let textArea = document.getElementById("text-field")
 let buttons = document.getElementsByTagName("button")
-
 const inputElement = document.getElementById("file-selector");
 inputElement.addEventListener("change", importJSON, false);
+
+textArea.focus();
 
 
 /* allows using text editor commands in contentEditable element */
