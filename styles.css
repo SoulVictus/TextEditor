@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+
+button {
+    margin-right: -5px;
+}
+
+input {
+    color:white
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #313131;
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+
+    height: 70%;
+    width: 80%;
+}
+
+#text-field {
+    height: 100%;
+    width: 100%;
+
+    background-color: white;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.buttons-container {
+    background-color: #525252;    
+}
+
