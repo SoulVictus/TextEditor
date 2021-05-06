@@ -35,10 +35,13 @@ input {
 #text-field {
     height: 100%;
     width: 100%;
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
 
-    background-color: white;
     word-wrap: break-word;
     overflow-y: auto;
+
+    background-color: white;
 }
 
 .buttons-container {
